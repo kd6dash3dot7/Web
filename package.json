@@ -1,0 +1,25 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kd6dash3dot7/Web.git"
+  },
+  "author": "Samet Güzel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kd6dash3dot7/Web/issues"
+  },
+  "homepage": "https://github.com/kd6dash3dot7/Web#readme",
+  "dependencies": {
+    "express": "^4.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
