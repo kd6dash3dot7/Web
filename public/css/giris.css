@@ -28,13 +28,14 @@ color: #198754;
 }
 
 .social_icon span:hover{
-color: white;
-cursor: pointer;
+color: black;
+cursor: help;
 }
 
 .card-header h3{
 color: #198754;
 font-size: 40px;
+margin-top: 10px;
 
 }
 
@@ -58,17 +59,7 @@ box-shadow: 0 0 0 0 !important;
 
 }
 
-.remember{
-color: white;
-}
 
-.remember input
-{
-width: 20px;
-height: 20px;
-margin-left: 15px;
-margin-right: 5px;
-}
 
 .login_btn{
 color: black;
