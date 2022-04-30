@@ -1,0 +1,59 @@
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giriş Yapınız</title>
+
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/giris.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      />
+  </head>
+  <body>
+     <!--Header kısmının kodları-->
+ 
+  <nav>
+    <div class="logo">
+    <h4 style="font-size: 4rem;">SMT</h4>  
+    </div>
+    
+    <div class="burger">
+      <div class="line1"></div>
+      <div class="line2" ></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
+    
+    
+    <div class="container">
+      <div class="wrapper">
+        <div class="title"><span>Giriş Yapınız</span></div>
+        <form action="/giris" method="POST">
+          <div class="row">
+            <i class="fas fa-user"></i>
+            <input name="email" type="text" placeholder="E-mail adresinizi giriniz." />
+          </div>
+          <div class="row">
+            <i class="fas fa-lock"></i>
+            <input name="sifre" type="password" placeholder="Şifrenizi giriniz" />
+          </div>
+          <div class="row button">
+            <input type="submit" value="Giriş" />
+          </div>
+        </form>
+      </div>
+    </div>
+
+   
+   
+
+    <script src="header.js"></script>
+  </body>
+</html>

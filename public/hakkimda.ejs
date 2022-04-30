@@ -1,0 +1,129 @@
+<html lang="tr"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, 
+    maximum-scale=1.0, minimum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hakkımda</title>
+    
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/hakkimda.css">
+    
+
+    <!-- Slider da kullanılan fontlar-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="css/popup.css">
+
+   
+    
+    
+    
+    <script src="header.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <nav>
+      <div class="logo">
+      <h4>SMT</h4>  
+      </div>
+      <ul class="nav-links">
+        <li>
+            <a href="#">Ana Sayfa</a>
+        </li>
+        <li>
+            <a href="#">Hakkımda</a>
+        </li>
+        <li>
+            <a href="#">ABQ</a>
+        </li>
+        <li>  
+            <a href="#">Eğitim</a>
+        </li>
+        <li>
+            <a href="#">İletişim</a>
+        </li>
+        <li>
+          <a> <%= user.email %>  </a>
+        </li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2" ></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+   
+ 
+    
+   
+    
+  <!--Hakkımda Slide Kısmı -->
+
+    <div class="slideshow">
+      <div class="slideshow-item">
+        <img src="resimler/marmara.png"  />
+        <div class="slideshow-item-text">
+          <h5>Merhaba Ben Samet Güzel !</h5>
+          <p>
+            2002 yılında İstanbul'da doğdum. Kocaeli'de yaşıyorum ve öğrenciyim.
+          </p>
+        </div>
+      </div>
+      <div class="slideshow-item">
+        <img src="resimler/Sakarya-universitesi-1.jpg"  />
+        <div class="slideshow-item-text">
+          <h5>Sakarya Üniversitesi</h5>
+          <p>
+            2020 yılında Sakarya Üniversitesi'nde Bilgisayar Mühendisliği
+            bölümüne başladım ve şuan aktif olarak 1. sınıf öğrencisiyim.
+          </p>
+        </div>
+      </div>
+
+      <div class="slideshow-item">
+        <img src="resimler/satranç.jpg"  />
+        <div class="slideshow-item-text">
+          <h5>Hobilerim</h5>
+          <p>
+            Liseye başladığımdan beri gerek okulun klüpleri gerekse benim
+            merakım dolayısıyla satranca merak saldım.
+          </p>
+        </div>
+      </div>
+      <div class="slideshow-item">
+        <img src="resimler/serbest-yuzme-1068x675.jpg"/>
+        <div class="slideshow-item-text">
+          <h5>Uğraştığım sporlar</h5>
+          <p>
+            Ortaokul çağımda tedavi olarak da başlasam üniversite sınavı
+            zamanına kadar uğraştığım tek spor yüzme oldu.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  
+    
+    
+    
+    
+
+    
+   <script src="javascript/popup.js"></script>
+    <script src="header.js"></script>
+  </body>
+</html>

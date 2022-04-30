@@ -1,83 +1,87 @@
-@import url('https://fonts.googleapis.com/css?family=Numans');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
-html,body{
-background-color: rgba(0, 0, 0, 0.453);
-background-size: cover;
-background-repeat: no-repeat;
-height: 100%;
-font-family: 'Numans', sans-serif;
-}
 
-.containerModified{
-height: 100%;
-align-content: center;
-}
-
-.card{
-height: 250px;
-margin-top: auto;
-margin-bottom: auto;
-width: 400px;
-background-color: rgba(0,0,0,0.5) !important;
-}
-
-.social_icon span{
-font-size: 60px;
-margin-left: 10px;
-color: #198754;
-}
-
-.social_icon span:hover{
-color: black;
-cursor: help;
-}
-
-.card-header h3{
-color: #198754;
-font-size: 40px;
-margin-top: 10px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Poppins', sans-serif;
 
 }
-
-
-.social_icon{
-position: absolute;
-right: 20px;
-top: -45px;
-}
-
-.input-group-prepend span{
-width: 50px;
-background-color: #198754;
-color: black;
-border:0 !important;
-}
-
-input:focus{
-outline: 0 0 0 0  !important;
-box-shadow: 0 0 0 0 !important;
+body{
+   
+    background: #FAEBD79A;
+    overflow: hidden;
 
 }
+.container{
+    max-width: 440px;
+    padding: 0 20px;
+    margin: 170px auto;
+}
+.wrapper{
+    width: 100%;
+    background: rgb(140, 132, 123);
+    border-radius: 5px;
+}   
 
-
-
-.login_btn{
-color: black;
-background-color: #198754;
-width: 100px;
-margin-left: 135px;
-margin-top: 10px;
+.wrapper .title{
+    line-height: 90px;
+    background: antiquewhite;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+    font-size: 25px;
+    color: #303030;
+    font-weight: 600;
+}
+.wrapper form{
+    padding: 30px 25px 25px 25px;
+}
+.wrapper form .row{
+height: 45px;
+margin-bottom: 15px;
+position: relative;
 }
 
-.login_btn:hover{
-color: white;
-background-color: black;
+.wrapper form .row input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 60px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+    transition: all 0.3s ease;
 }
-
-.links{
-color: white;
+form .row input:focus{
+    border-color: rgb(189, 177, 160);
+    box-shadow: inset 0px 0px 2px 2px rgba(144,130,123,0.25);
 }
+.wrapper form .row i{
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    color: white;
+    font-size: 18px;
+    background-color: antiquewhite;
+    border: 1px solid antiquewhite;
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper form .button input{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 0px;
+    background-color: antiquewhite;
+    border: 1px solid antiquewhite;
+    cursor: pointer;
 
-.links a{
-margin-left: 4px;
+
+}
+form .button input:hover{
+    background: rgb(152, 143, 131);
+
 }

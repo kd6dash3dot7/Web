@@ -1,10 +1,18 @@
 const express=require ("express");
 const app= express();
-app.use(express.static("public"));
+const path=require('path');
+const girisRoute=require('./routes/giris');
+const hakkimdaRoute=require('./routes/hakkimda');
+app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.urlencoded({extented: true}));
-app.post("/giris.html", (req,res) =>{ 
-    
-    
-});
+app.set('view engine', 'ejs');
+app.set('views', 'public');
+
+
+app.use(girisRoute);
+app.use(hakkimdaRoute);
+
 app.listen(3000);
+
+
 
