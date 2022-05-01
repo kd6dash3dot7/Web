@@ -30,7 +30,7 @@ router.post('/giris',(req,res)=>{
       
         return false;
       }
-    if (email.split('@')[1] != 'sakarya.edu.tr' || !email) {
+    if (email.split('@')[1] != 'ogr.sakarya.edu.tr' || !email) {
         console.log('Wrong E Mail.');
         res.redirect('/giris');
       }else if(!firstIsUppercase(sifre) || sifre.length  > 10 || !sifre){
