@@ -11,6 +11,7 @@ app.set('views', 'public');
 
 app.use(girisRoute);
 app.use(hakkimdaRoute);
+app.use(sehirRoute);
 
 app.listen(3000);
 

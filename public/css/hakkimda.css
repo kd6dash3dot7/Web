@@ -27,7 +27,7 @@ body{
     height: inherit;
     position: absolute;
     opacity: 0;
-    animation: cycleImages 61s infinite;
+    animation: cycleImages 101s infinite;
 }
 
 .slideshow-item:nth-child(1){
@@ -41,6 +41,9 @@ body{
 }
 .slideshow-item:nth-child(4){
     animation-delay:30s;
+}
+.slideshow-item:nth-child(5){
+    animation-delay:40s;
 }
 .slideshow-item img{
     width: 100%;
