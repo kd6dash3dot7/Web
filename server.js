@@ -3,6 +3,7 @@ const app= express();
 const path=require('path');
 const girisRoute=require('./routes/giris');
 const hakkimdaRoute=require('./routes/hakkimda');
+const sehirRoute=require('./routes/sehir');
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.urlencoded({extented: true}));
 app.set('view engine', 'ejs');
