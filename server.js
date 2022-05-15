@@ -1,6 +1,7 @@
 const express=require ("express");
 const app= express();
 const path=require('path');
+const port= process.env.PORT || 5000;
 const girisRoute=require('./routes/giris');
 const hakkimdaRoute=require('./routes/hakkimda');
 const sehirRoute=require('./routes/sehir');
